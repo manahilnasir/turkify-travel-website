@@ -1,0 +1,165 @@
+.cpage-header {
+    background: var(--primary-color);
+    background: linear-gradient(rgba(14, 42, 71, 0.9), rgba(232, 185, 35, 0.4)),
+                url('Meze.avif') center/cover;
+    padding: 120px 0 80px;
+    padding-left: 430px;
+    text-align: center;
+    color: white;
+    min-height: 400px;
+    position: relative;
+}
+
+.cuisine-page .dish-item {
+    transition: all 0.5s ease;
+}
+
+.cuisine-page .dish-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+    position: relative;
+}
+
+.cuisine-page .dish-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.cuisine-page .dish-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.cuisine-page .dish-card:hover img {
+    transform: scale(1.05);
+}
+
+.cuisine-page .dish-content {
+    padding: 1.5rem;
+}
+
+.cuisine-page .dish-content h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.cuisine-page .dish-content p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.cuisine-page .dish-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cuisine-page .dish-features span {
+    background: var(--accent-color);
+    color: var(--primary-color);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.cuisine-page .dish-features i {
+    color: var(--secondary-color);
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.cuisine-page .dish-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuisine-page .dish-rating .stars {
+    color: var(--secondary-color);
+}
+
+.cuisine-page .dish-rating .stars i {
+    font-size: 16px;
+    color: var(--secondary-color);
+    margin-right: 2px;
+}
+
+.cuisine-page .dish-rating span {
+    color: var(--text-dark);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.cuisine-page .experience-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.cuisine-page .experience-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.cuisine-page .experience-card .experience-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.cuisine-page .experience-card h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.cuisine-page .experience-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.cuisine-page .experience-card ul li {
+    padding: 0.5rem 0;
+    color: var(--text-light);
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.cuisine-page .experience-card ul li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.cuisine-page .experience-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 1.5rem 0;
+}
