@@ -1,7 +1,7 @@
 .cpage-header {
     background: var(--primary-color);
     background: linear-gradient(rgba(14, 42, 71, 0.9), rgba(232, 185, 35, 0.4)),
-                url('/Meze.avif') center/cover;
+                url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1920&q=80') center/cover;
     padding: 120px 0 80px;
     color: white;
     min-height: 400px;

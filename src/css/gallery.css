@@ -1,7 +1,7 @@
 .gpage-header {
     background: var(--primary-color);
     background: linear-gradient(rgba(14, 42, 71, 0.9), rgba(232, 185, 35, 0.4)), 
-                url('/Istanbul2.avif') center/cover;
+                url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80') center/cover;
     padding: 120px 0 80px;
     color: white;
     min-height: 400px;
