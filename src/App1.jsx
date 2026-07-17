@@ -9,6 +9,7 @@ import About from './component/About'
 import Info from './component/Info'
 import ContactUs from './component/ContactUs'
 import Layout from './component/Layout'
+import ScrollToTop from './component/ScrollToTop'
 const App1=()=>{
     //To clear Form previous Data
     useEffect(() => {
@@ -19,6 +20,7 @@ const App1=()=>{
     return(
         <>
          <BrowserRouter>
+        <ScrollToTop />
         <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

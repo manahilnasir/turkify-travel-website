@@ -513,7 +513,6 @@ footer a:hover {
 .user-form-container {
     padding: 40px 20px;
     background-color: #f1f3f4;
-    min-height: 100vh;
 }
 
 .user-form-card {
@@ -523,6 +522,9 @@ footer a:hover {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
     padding: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .user-form-title {
@@ -535,7 +537,7 @@ footer a:hover {
 
 .user-form-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
     gap: 20px;
     margin-bottom: 30px;
 }
@@ -786,6 +788,25 @@ html, body {
     /* Tour cards */
     .tour-preview-card img {
         width: 100%;
+    }
+
+    /* UserForm card padding on mobile */
+    .user-form-card {
+        padding: 24px 16px;
+    }
+
+    .user-form-title {
+        font-size: 1.6rem;
+    }
+
+    .user-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .user-form-input,
+    .user-form-textarea {
+        width: 100%;
+        box-sizing: border-box;
     }
 }
 
