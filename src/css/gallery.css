@@ -3,11 +3,19 @@
     background: linear-gradient(rgba(14, 42, 71, 0.9), rgba(232, 185, 35, 0.4)), 
                 url('Istanbul2.avif') center/cover;
     padding: 120px 0 80px;
-    text-align: center;
-    padding-left:430px;
     color: white;
     min-height: 400px;
     position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.gpage-header .page-title {
+    font-size: clamp(1.6rem, 4vw, 3rem);
+}
+
+.gpage-header .page-subtitle {
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
 }
 
 .gallery-filters,

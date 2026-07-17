@@ -1,11 +1,22 @@
 .hero-section {
     height: 100vh;
+    min-height: 500px;
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
                 url('https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=1920') center/cover;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
     overflow: hidden;
+}
+
+.hero-title {
+    font-size: clamp(1.8rem, 5vw, 3.5rem);
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: clamp(1rem, 2.5vw, 1.4rem);
 }
 
 .scroll-indicator {

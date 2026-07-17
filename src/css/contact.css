@@ -5,9 +5,17 @@
     padding: 120px 0 80px;
     color: white;
     min-height: 400px;
-    text-align: center;
-    padding-left:470px;
     position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.copage-header .page-title {
+    font-size: clamp(1.6rem, 4vw, 3rem);
+}
+
+.copage-header .page-subtitle {
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
 }
 
 .contact-info-card {

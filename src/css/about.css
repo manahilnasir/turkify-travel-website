@@ -5,8 +5,17 @@
     padding: 120px 0 80px;
     color: white;
     min-height: 400px;
-    padding-left: 490px;
     position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.apage-header .page-title {
+    font-size: clamp(1.6rem, 4vw, 3rem);
+}
+
+.apage-header .page-subtitle {
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
 }
 
 .story-image {
