@@ -1,7 +1,7 @@
 .dtpage-header {
     background: var(--primary-color);
     background: linear-gradient(rgba(14, 42, 71, 0.9), rgba(232, 185, 35, 0.4)), 
-                url('Pamukkale.jpg') center/cover;
+                url('/Pamukkale.jpg') center/cover;
     color: white;
     min-height: 400px;
     display: flex;
